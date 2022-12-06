@@ -1,0 +1,2 @@
+[dependencies]
+ndarray = "0.13"
