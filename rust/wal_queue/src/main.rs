@@ -81,4 +81,4 @@ impl Queue {
     }
 
     // Close the connection to the SQLite database
-    fn close(
+    fn close()
