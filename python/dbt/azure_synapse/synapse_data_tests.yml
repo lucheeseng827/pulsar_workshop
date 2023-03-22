@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: synapse_data
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: timestamp
+        tests:
+          - unique

@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: bigquery_source
+    database: your_gcp_project_id
+    schema: your_bigquery_dataset
+    tables:
+      - name: bigquery_data
+        columns:
+          - name: id
+            description: Unique identifier of the event
+          - name: timestamp
+            description: Event timestamp
+          - name: value
+            description: Event value

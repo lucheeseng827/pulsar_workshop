@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: kinesis_data
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: timestamp
+        tests:
+          - unique

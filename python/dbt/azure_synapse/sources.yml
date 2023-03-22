@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: synapse_source
+    database: your_database_name
+    schema: your_schema_name
+    tables:
+      - name: synapse_data
+        columns:
+          - name: id
+            description: Unique identifier of the event
+          - name: timestamp
+            description: Event timestamp
+          - name: value
+            description: Event value
