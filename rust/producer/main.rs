@@ -34,3 +34,4 @@ async fn main() -> Result<()> {
     let _ = producer
         .send(ProducerMessage::new(data))
         .await?;
+    }
