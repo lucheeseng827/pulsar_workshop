@@ -1,3 +1,7 @@
+# creating an instance with terraform
+
+
+```hcl
 provider "aws" {
     region = "us-east-1"
 }
@@ -14,3 +18,4 @@ resource "aws_instance" "example" {
         Name = "example-instance"
     }
 }
+```
